@@ -8,6 +8,7 @@ namespace Pizza.API.Persistence
         public DbSet<Models.Pizza> Pizzas { get; set; }
         public DbSet<Models.Estoque> Estoques { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Models.Pizza>()

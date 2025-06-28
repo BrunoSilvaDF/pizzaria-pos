@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza.API", "Pizza.API\Pizza.API.csproj", "{0AA24B82-3ADF-4AFB-94BE-34491FC0E45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.API", "Pedidos.API\Pedidos.API.csproj", "{F4453944-EC2A-4C5C-9359-350D4EA2A0CA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AEB0DDC4-EE51-417D-8D0F-925DA1BBAC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{35F5FC28-41CE-40A9-9DD9-D4E9C1EAB798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{0AA24B82-3ADF-4AFB-94BE-34491FC0E45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA24B82-3ADF-4AFB-94BE-34491FC0E45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA24B82-3ADF-4AFB-94BE-34491FC0E45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4453944-EC2A-4C5C-9359-350D4EA2A0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4453944-EC2A-4C5C-9359-350D4EA2A0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4453944-EC2A-4C5C-9359-350D4EA2A0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4453944-EC2A-4C5C-9359-350D4EA2A0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB0DDC4-EE51-417D-8D0F-925DA1BBAC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB0DDC4-EE51-417D-8D0F-925DA1BBAC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB0DDC4-EE51-417D-8D0F-925DA1BBAC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB0DDC4-EE51-417D-8D0F-925DA1BBAC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F5FC28-41CE-40A9-9DD9-D4E9C1EAB798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F5FC28-41CE-40A9-9DD9-D4E9C1EAB798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F5FC28-41CE-40A9-9DD9-D4E9C1EAB798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F5FC28-41CE-40A9-9DD9-D4E9C1EAB798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
